@@ -68,7 +68,7 @@ export default function IMSLanding() {
             <div className="flex items-center space-x-4">
               <Button className="bg-blue-600 hover:bg-blue-700" asChild>
                 <Link href="https://open.kakao.com/o/gw2FGRAh" target="_blank" rel="noopener noreferrer">
-                  무료 상담
+                  상담
                 </Link>
               </Button>
             </div>
@@ -103,7 +103,7 @@ export default function IMSLanding() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-lg px-8 py-6 bg-blue-600 hover:bg-blue-700" asChild>
                   <Link href="https://open.kakao.com/o/gw2FGRAh" target="_blank" rel="noopener noreferrer">
-                    무료 상담 신청
+                    상담 신청
                   </Link>
                 </Button>
                 <Button
@@ -120,7 +120,7 @@ export default function IMSLanding() {
               <div className="flex items-center space-x-8 text-sm text-gray-600">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-blue-500" />
-                  <span>무료 초기 상담</span>
+                  <span>초기 상담</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-blue-500" />
@@ -463,7 +463,7 @@ export default function IMSLanding() {
                 asChild
               >
                 <Link href="https://open.kakao.com/o/gw2FGRAh" target="_blank" rel="noopener noreferrer">
-                  무료 상담 신청
+                  상담 신청
                 </Link>
               </Button>
             </div>
