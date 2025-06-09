@@ -564,15 +564,11 @@ export default function IMSLanding() {
                 </li>
                 <li className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />
-                  <span>hjparkg71@gmail.com</span>
+                  <span>hj.park@ims-elec.com</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <MapPin className="w-4 h-4 mt-1" />
-                  <span>
-                    경기도 수원시 인계동
-                    <br />
-                    1125-1
-                  </span>
+                  <span>경기 화성시 동탄대로 24길 31-8</span>
                 </li>
               </ul>
             </div>
