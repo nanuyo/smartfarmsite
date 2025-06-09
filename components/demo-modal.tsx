@@ -54,13 +54,13 @@ export function DemoModal({ isOpen, onClose }: DemoModalProps) {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl w-full h-[80vh] p-0">
+      <DialogContent className="max-w-4xl w-full h-[90vh] p-0">
         <DialogHeader className="p-6 pb-0">
           <DialogTitle className="text-2xl font-bold text-center">IMS 스마트팜 시스템 데모</DialogTitle>
         </DialogHeader>
 
-        <div className="flex-1 flex flex-col p-6">
-          <div className="relative flex-1 bg-gray-100 rounded-lg overflow-hidden">
+        <div className="flex-1 flex flex-col p-4">
+          <div className="relative h-[70vh] bg-gray-100 rounded-lg overflow-hidden">
             <Image
               src={currentImage.src || "/placeholder.svg"}
               alt={currentImage.title}
