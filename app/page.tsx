@@ -560,7 +560,7 @@ export default function IMSLanding() {
               <ul className="space-y-3 text-gray-400">
                 <li className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span>010-6589-5351</span>
+                  <span>010-3977-6421</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />
