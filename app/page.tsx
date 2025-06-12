@@ -219,7 +219,7 @@ export default function IMSLanding() {
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">연구 효율성을 극대화하는 핵심 기능들을 소개합니다</p>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
             <Card className="border-0 shadow-lg">
               <CardHeader>
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center mb-6">
@@ -290,6 +290,34 @@ export default function IMSLanding() {
                   <li className="flex items-start space-x-2">
                     <CheckCircle className="w-4 h-4 text-blue-500 mt-1 flex-shrink-0" />
                     <span>직관적인 시각화 도구 및 리포트 제공</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card className="border-0 shadow-lg">
+              <CardHeader>
+                <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-xl flex items-center justify-center mb-6">
+                  <Monitor className="w-8 h-8 text-white" />
+                </div>
+                <CardTitle className="text-xl mb-4">환경제어 및 데이터수집</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start space-x-2">
+                    <CheckCircle className="w-4 h-4 text-blue-500 mt-1 flex-shrink-0" />
+                    <span>온도, 습도, 광량, CO₂ 농도, 토양/양액 상태</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <CheckCircle className="w-4 h-4 text-blue-500 mt-1 flex-shrink-0" />
+                    <span>24시간 환경 모니터링</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <CheckCircle className="w-4 h-4 text-blue-500 mt-1 flex-shrink-0" />
+                    <span>자동 관수/양액공급</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <CheckCircle className="w-4 h-4 text-blue-500 mt-1 flex-shrink-0" />
+                    <span>무선통신을 통해 데이터 로거</span>
                   </li>
                 </ul>
               </CardContent>
