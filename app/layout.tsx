@@ -3,28 +3,28 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "IMS",
+  title: "ARTRITHM",
   description: "이미지 기반 스마트팜 솔루션",
   generator: "v0.dev",
   icons: {
     icon: [
       {
-        url: "/images/ims-logo.jpg",
+        url: "/images/artrithm-logo.png",
         sizes: "32x32",
-        type: "image/jpeg",
+        type: "image/png",
       },
       {
-        url: "/images/ims-logo.jpg",
+        url: "/images/artrithm-logo.png",
         sizes: "16x16",
-        type: "image/jpeg",
+        type: "image/png",
       },
     ],
     apple: {
-      url: "/images/ims-logo.jpg",
+      url: "/images/artrithm-logo.png",
       sizes: "180x180",
-      type: "image/jpeg",
+      type: "image/png",
     },
-    shortcut: "/images/ims-logo.jpg",
+    shortcut: "/images/artrithm-logo.png",
   },
 }
 

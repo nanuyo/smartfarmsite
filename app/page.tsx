@@ -39,8 +39,8 @@ export default function IMSLanding() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
               <Image
-                src="/images/ims-logo.jpg"
-                alt="IMS Electronics Logo"
+                src="/images/artrithm-logo.png"
+                alt="ARTRITHM Logo"
                 width={120}
                 height={40}
                 className="h-10 w-auto"
@@ -109,7 +109,7 @@ export default function IMSLanding() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="text-lg px-8 py-6 border-blue-600 text-blue-600 hover:bg-blue-50"
+                  className="text-lg px-8 py-6 border-blue-600 text-blue-600 hover:bg-blue-50 bg-transparent"
                   onClick={() => setIsDemoOpen(true)}
                 >
                   <Play className="w-5 h-5 mr-2" />
@@ -137,7 +137,7 @@ export default function IMSLanding() {
               <div className="relative z-10">
                 <Image
                   src="/images/smart-farm-system.png"
-                  alt="IMS 스마트팜 시스템 - LED 조명과 자동화된 식물 재배 시설"
+                  alt="ARTRITHM 스마트팜 시스템 - LED 조명과 자동화된 식물 재배 시설"
                   width={800}
                   height={600}
                   className="rounded-2xl shadow-2xl"
@@ -334,7 +334,9 @@ export default function IMSLanding() {
               기대 효과
             </Badge>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">도입 효과 및 장점</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">IMS 스마트팜 솔루션이 가져다주는 혁신적인 변화</p>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              ARTRITHM 스마트팜 솔루션이 가져다주는 혁신적인 변화
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -405,7 +407,7 @@ export default function IMSLanding() {
                   ))}
                 </div>
                 <CardDescription className="text-base">
-                  "IMS 스마트팜 솔루션 도입 후 연구 효율이 300% 향상되었습니다. 자동화된 데이터 수집으로 연구자들이
+                  "ARTRITHM 스마트팜 솔루션 도입 후 연구 효율이 300% 향상되었습니다. 자동화된 데이터 수집으로 연구자들이
                   분석에만 집중할 수 있게 되었어요."
                 </CardDescription>
               </CardHeader>
@@ -481,7 +483,8 @@ export default function IMSLanding() {
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl sm:text-4xl font-bold text-white">농업 연구의 혁신을 시작하세요</h2>
             <p className="text-xl text-blue-100">
-              IMS 스마트팜 솔루션으로 귀하의 연구소 경쟁력을 강화하고, 데이터 기반의 정밀한 농업 연구를 경험해보세요.
+              ARTRITHM 스마트팜 솔루션으로 귀하의 연구소 경쟁력을 강화하고, 데이터 기반의 정밀한 농업 연구를
+              경험해보세요.
             </p>
             <div className="flex justify-center">
               <Button
@@ -507,8 +510,8 @@ export default function IMSLanding() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Image
-                  src="/images/ims-logo.jpg"
-                  alt="IMS Electronics Logo"
+                  src="/images/artrithm-logo.png"
+                  alt="ARTRITHM Logo"
                   width={120}
                   height={40}
                   className="h-8 w-auto"
@@ -588,22 +591,22 @@ export default function IMSLanding() {
               <ul className="space-y-3 text-gray-400">
                 <li className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span>010-3977-6421</span>
+                  <span>010-6589-5351</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />
-                  <span>hj.park@ims-elec.com</span>
+                  <span>hjparkg71@gmail.com</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <MapPin className="w-4 h-4 mt-1" />
-                  <span>경기 화성시 동탄대로 24길 31-8</span>
+                  <span>경기 수원시 팔달구 효원로 278</span>
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">© 2024 IMS Electronics. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© 2024 ARTRITHM. All rights reserved.</p>
             <div className="flex space-x-6 text-sm text-gray-400 mt-4 sm:mt-0">
               <Link href="#" className="hover:text-white transition-colors">
                 개인정보처리방침
